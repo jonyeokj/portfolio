@@ -18,7 +18,7 @@ const textRef = useRef();
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/face.png" alt=""/>
+          <img src={process.env.PUBLIC_URL +"/assets/face.png"} alt=""/>
         </div>
       </div>
       <div className="right">
@@ -27,8 +27,8 @@ const textRef = useRef();
           <h1>Jonathan Yeo</h1>
           <h3><span ref={textRef}></span></h3>
         </div>
-        <a href="#portfolio">
-          <img src="assets/down.png" alt="" />
+        <a href="#resume">
+          <img src={process.env.PUBLIC_URL +"/assets/down.png"} alt="" />
         </a>
       </div>
     </div>

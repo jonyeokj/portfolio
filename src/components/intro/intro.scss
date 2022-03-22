@@ -3,7 +3,7 @@
     display: flex;
 
     .left{
-        flex: 0.5;
+        flex: 1;
         overflow: hidden;
 
         .imgContainer{
@@ -22,7 +22,7 @@
         }
     }
     .right{
-        flex: 0.5;
+        flex: 1;
         position: relative;
 
         .wrapper{

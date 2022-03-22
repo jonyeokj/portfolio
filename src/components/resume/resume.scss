@@ -1,0 +1,109 @@
+@import "../../global.scss";
+
+.resume {
+  height: 100vh;
+  display: flex;
+
+  .resume-left {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+
+    .l-wrapper{
+      width: 100%;
+      height: 100%;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .l-title{
+        font-weight: 400;
+      }
+
+      .l-sub{
+        margin: 20px 0px;
+      }
+
+      .l-desc{
+        font-weight: 300;
+      }
+    }
+
+  }
+
+  .resume-right{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+
+    .r-wrapper{
+      width: 100%;
+      height: 100%;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .r-title1{
+        font-weight: 400;
+      }
+
+      .r-sub1{
+        margin: 20px 0px;
+        font-weight: 300;
+        padding-right: 100px;
+      }
+
+      .r-sub2{
+        margin: 0px 0px;
+        font-weight: 300;
+      }
+
+      .r-sub3{
+        margin: 20px 0px;
+        padding-right: 100px;
+        font-weight: 300;
+      }
+
+      .r-title2{
+        font-weight: 400;
+      }
+
+      .r-sub4{
+        margin: 20px 0px;
+      }
+
+      .r-sub5{
+        margin: 0px 0px;
+        padding-right: 100px;
+        font-weight: 300;
+      }
+
+      .r-sub6{
+        margin: 20px 0px;
+        padding-right: 100px;
+        font-weight: 300;
+      }
+
+      .r-sub7{
+        margin: 0px 0px;
+        padding-right: 100px;
+        font-weight: 300;
+      }
+
+      .r-sub8{
+        margin: 20px 0px;
+        padding-right: 100px;
+        font-weight: 300;
+      }
+
+
+    }
+
+  }
+}
